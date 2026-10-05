@@ -1,0 +1,4 @@
+.lightbox { position: fixed; inset: 0; z-index: 1000; display: flex; align-items: center; justify-content: center; padding: 24px; background: rgba(7, 32, 38, .92); cursor: zoom-out; }
+.lightbox img { max-width: 96vw; max-height: 90vh; object-fit: contain; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,.45); cursor: default; }
+.lightbox-close { position: absolute; top: 18px; right: 22px; width: 44px; height: 44px; color: #fff; border: 1px solid rgba(255,255,255,.5); border-radius: 50%; background: rgba(0,0,0,.3); cursor: pointer; font-size: 2rem; line-height: 1; }
+.lightbox-close:hover, .lightbox-close:focus-visible { background: #ff6b5f; }
